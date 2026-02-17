@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playpen+Sans:wght@100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Playpen Sans", cursive;
+    font-size: 12px;
+    color: rgba(57, 2, 108, 0.738);
+    background:url('assets/Footer_BaI.png');
+    overflow-x: hidden;
+}
+
+/* Intro_Container */
+.Intro_Container{
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: url(assets/BG_Imgc.png);
+    background-size: cover;
+}
+
+.Bg_img img{
+   margin-top: 50px;
+   height: 200px;
+   width: 180px;
+}
+.text{
+  margin-top: 10px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+.text h1{
+    color: #9b722a;
+}
+
+/* Bride and Groom */
+.Bride_Groom{
+    padding: 20px;
+    background: url('assets/BG_Imgc.png');
+    background-size: cover;
+}
+.Bride_Groom h2{
+    margin-top: 20px;
+    background-color: rgba(240, 248, 255, 0.853);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.Groom{
+    padding: 20px;
+    margin-top: 20px; 
+    background-color: rgba(240, 248, 255, 0.579);
+}
+.Groom img{
+    height: 210px;
+    width: 170px;
+    border: 3px solid rgba(57, 2, 108, 0.738);
+}
+
+
+/* Photo_gallery */
+.Photo_gallery{
+    padding: 20px;
+    background: url('assets/BG_Imgc.png');
+    background-size: cover;
+}
+.Photo_gallery h2{
+    background-color: rgba(240, 248, 255, 0.853);
+    padding: 10px;
+    border-radius: 20px;
+}
+.Gallery img{
+    margin-top: 20px;
+    height: 200px;
+    padding: 10px;
+    border: 2px solid aliceblue;
+}
+
+/* Location_Container */
+.Location_Container{
+    padding: 20px;
+    background: url('assets/BG_Imgc.png');
+}
+.Location_Container h2{
+    margin-top: 20px;
+    background-color: rgba(240, 248, 255, 0.853);
+    padding: 10px;
+    border-radius: 20px;
+}
+.Iframe{
+    border: 2px solid whitesmoke;
+    padding: 10px;
+}
+.btn{
+    background-color: aliceblue;
+    padding: 10px;
+}
+.btn a{
+    text-decoration: none;
+}
+
+/* Social_Share */
+.Social_Share{
+    padding: 20px;
+    overflow: hidden;
+}
+
+/* Footer */
+.Footer{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+}
+.Footer-row{
+    display: flex;
+    gap: 80px;
+}
+.Footer-row a{
+    background-color: aliceblue;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid rgba(57, 6, 106, 0.695);
+}
