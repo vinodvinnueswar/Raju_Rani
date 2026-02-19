@@ -14,8 +14,7 @@ body{
     font-family: "Playpen Sans", cursive;
     font-size: 12px;
     color: rgba(57, 2, 108, 0.738);
-    background:url('assets/Footer_BaI.png');
-    overflow-x: hidden;
+    background-color: rgba(51, 2, 96, 0.695);
 }
 
 /* Intro_Container */
@@ -115,6 +114,8 @@ body{
 .Social_Share{
     padding: 20px;
     overflow: hidden;
+    background: url('assets/Footer_BaI.png');
+    background-size: cover;
 }
 
 /* Footer */
@@ -129,9 +130,145 @@ body{
     gap: 80px;
 }
 .Footer-row a{
-    background-color: aliceblue;
+    background-color: rgba(67, 2, 76, 0.723);
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border-radius: 5px;
     border: 2px solid rgba(57, 6, 106, 0.695);
+}
+
+
+@media (min-width:1025px){
+
+  body{
+    font-size:16px;
+    width: 100%;
+  }
+  .Home{
+    width: 80%;
+  }
+  .Home-page{
+    padding-left: 500px;
+  }
+  /* Intro_Container */
+.Intro_Container{
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.Bg_img img{
+   margin-top: 50px;
+   height: 230px;
+   width: 200px;
+}
+.text{
+  margin-top: 10px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+.text h1{
+    color: #9b722a;
+}
+
+/* Bride and Groom */
+.Bride_Groom{
+    padding: 20px;
+    background: url('assets/BG_Imgc.png');
+    background-size: cover;
+}
+.Bride_Groom h2{
+    margin-top: 20px;
+    background-color: rgba(240, 248, 255, 0.853);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.Groom{
+    padding: 20px;
+    margin-top: 20px; 
+    background-color: rgba(240, 248, 255, 0.579);
+}
+.Groom img{
+    height: 210px;
+    width: 170px;
+    border: 3px solid rgba(57, 2, 108, 0.738);
+}
+
+
+/* Photo_gallery */
+.Photo_gallery{
+    padding: 20px;
+    background: url('assets/BG_Imgc.png');
+    background-size: cover;
+}
+.Photo_gallery h2{
+    background-color: rgba(240, 248, 255, 0.853);
+    padding: 10px;
+    border-radius: 20px;
+}
+.Gallery img{
+    margin-top: 20px;
+    height: 200px;
+    padding: 10px;
+    border: 2px solid aliceblue;
+}
+
+/* Location_Container */
+.Location_Container{
+    padding: 40px;
+    background: url('assets/BG_Imgc.png');
+}
+.Location_Container h2{
+    margin-top: 20px;
+    background-color: rgba(240, 248, 255, 0.853);
+    padding: 10px;
+    border-radius: 20px;
+}
+.Iframe{
+    border: 2px solid whitesmoke;
+    padding: 10px;
+}
+.Iframe iframe{
+    width: 350px;
+}
+.btn{
+    background-color: aliceblue;
+    padding: 10px;
+}
+.btn a{
+    text-decoration: none;
+}
+
+/* Social_Share */
+.Social_Share{
+    padding: 20px;
+    overflow: hidden;
+    background: url('assets/Footer_BaI.png');
+    background-size: cover;
+}
+}
+
+/* Footer */
+.Footer{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+}
+.Footer-row{
+    display: flex;
+    gap: 100px;
+}
+.Footer-row a{
+    background-color: rgba(57, 6, 106, 0.695) ;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid rgba(57, 6, 106, 0.695);
+    color: white;
 }

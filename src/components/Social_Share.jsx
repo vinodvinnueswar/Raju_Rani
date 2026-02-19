@@ -10,6 +10,7 @@ import {
   TwitterIcon,
   LinkedinIcon
 } from "react-share";
+import Footer from './Footer';
 
 const Social_Share = () => {
   const shareUrl = "https://ayesha-imran.vercel.app/";
@@ -39,7 +40,9 @@ const Social_Share = () => {
                                         </LinkedinShareButton>
                         
          </div>
-        </div>
+        </div> <br /><br />
+        {/* Footer */}
+        <Footer/>
     </div>
   )
 }
