@@ -1,5 +1,5 @@
 import React from 'react'
-import BG_Img from  '../assets/Couple_Img.png'
+import Couple_Img from  '../assets/Images/Couple_Img.png'
 
 
 const Intro = () => {
@@ -9,7 +9,7 @@ const Intro = () => {
     <div className="Intro_Container">
 
         <div className="Bg_img" data-aos="fade-up">
-            <img src={BG_Img} alt="" />
+            <img src={Couple_Img} alt="" />
         </div>
 
 
