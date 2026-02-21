@@ -1,15 +1,8 @@
 import React from 'react'
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
-import BG_Img from '../assets/couple_Img.png'
+import BG_Img from '../assets/Couple_Img.png'
 
 
 const Intro = () => {
-
-    useEffect(() => {
-    AOS.init({ duration: 1000 });
-    }, []);
 
 
   return (
