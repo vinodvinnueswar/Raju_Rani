@@ -258,7 +258,7 @@ body{
 .couple-name {
   font-family: "Great Vibes", cursive;
   font-size: 48px;
-  background: linear-gradient(90deg, #956536, #D4AF37, #C4A484);
+  background: linear-gradient(90deg, #eb85b8, #ef37c7, #1f1001);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shimmer 4s linear infinite;
@@ -281,7 +281,7 @@ body{
   padding: 12px 30px;
   border-radius: 30px;
   border: none;
-  background-color: #D4AF37;
+  background-color: rgba(240, 186, 247, 0.848);
   font-size: 16px;
   cursor: pointer;
   transition: 0.3s;
