@@ -1,5 +1,5 @@
 import React from 'react'
-import BG_Img from '../assets/Couple_Img.png'
+import BG_Img from  '../assets/Couple_Img.png'
 
 
 const Intro = () => {
